@@ -6,9 +6,10 @@
   "type": "module",
   "cracoConfig": "craco.config.cjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "react-script start",
-    "build": "react-script build"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "author": "Danik Karagodin",
   "license": "ISC",
