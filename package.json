@@ -7,8 +7,8 @@
   "cracoConfig": "craco.config.cjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "craco start",
-    "build": "craco build && serve -s build"
+    "start": "react-script start",
+    "build": "react-script build"
   },
   "author": "Danik Karagodin",
   "license": "ISC",
@@ -18,7 +18,8 @@
     "react-dom": "^18.2.0",
     "react-image-shadow": "^1.1.3",
     "react-native-web": "^0.19.4",
-    "react-router-dom": "^6.11.1"
+    "react-router-dom": "^6.11.1",
+    "react-scripts": "^5.0.1"
   },
   "browserslist": {
     "production": [
