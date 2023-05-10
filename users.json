@@ -1,0 +1,256 @@
+[{
+  "_id": {
+    "$oid": "64500cf495badbc6924460c8"
+  },
+  "FullName": "Driver of 1 Minibus",
+  "email": "Driver1@gmail.com",
+  "passwordHash": "$2b$10$ZYk74KhudPJGFw7fdszrH.g7cCCiiLiR7x.VsidOw5RNJq2CoEpJ6",
+  "busId": 1,
+  "createdAt": {
+    "$date": "2023-05-01T19:03:16.910Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-01T19:03:16.910Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64500fc095badbc6924460ca"
+  },
+  "FullName": "Driver of 2 Minibus",
+  "email": "Driver2@gmail.com",
+  "passwordHash": "$2b$10$f8oB2x7gwBK9wphn6ASs2.aG/B1fiYU6xVEivmybmP62gv32KEhgS",
+  "busId": 2,
+  "createdAt": {
+    "$date": "2023-05-01T19:15:12.804Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-01T19:15:12.804Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64500fd695badbc6924460cc"
+  },
+  "FullName": "Driver of 5 Minibus",
+  "email": "Driver5@gmail.com",
+  "passwordHash": "$2b$10$AaPsgHTOUJ9E65FCZa2d7upll1r4JevBwAYVbs2SkjIYdAfrLBvNu",
+  "busId": 5,
+  "createdAt": {
+    "$date": "2023-05-01T19:15:34.330Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-01T19:15:34.330Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64500fe295badbc6924460ce"
+  },
+  "FullName": "Driver of 6 Minibus",
+  "email": "Driver6@gmail.com",
+  "passwordHash": "$2b$10$acL/R11E.XZPQ8p9ZfreUuj9tDqCO..lV9vssyLmT.VgY6fsBhfI6",
+  "busId": 6,
+  "createdAt": {
+    "$date": "2023-05-01T19:15:46.031Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-01T19:15:46.031Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64500fed95badbc6924460d0"
+  },
+  "FullName": "Driver of 7 Minibus",
+  "email": "Driver7@gmail.com",
+  "passwordHash": "$2b$10$fW2Dvp1ovt1Q7d3YNLqeBuT5NCDvkSpIfcFJcQFLhvCk.L1EQ4v.i",
+  "busId": 7,
+  "createdAt": {
+    "$date": "2023-05-01T19:15:57.157Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-01T19:15:57.157Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64500ff495badbc6924460d2"
+  },
+  "FullName": "Driver of 9 Minibus",
+  "email": "Driver9@gmail.com",
+  "passwordHash": "$2b$10$TlUD9rKxekyMH11xyEpOY.W110Z0icuKz4XpgcopZp.6S.qZuZdAi",
+  "busId": 9,
+  "createdAt": {
+    "$date": "2023-05-01T19:16:04.285Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-01T19:16:04.285Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64500ffe95badbc6924460d4"
+  },
+  "FullName": "Driver of 10 Minibus",
+  "email": "Driver10@gmail.com",
+  "passwordHash": "$2b$10$qu6.kYYqrNIbnJ5zclV4UuHzf/Cxn5B7klZL169LJiU8aNKjYbj1C",
+  "busId": 10,
+  "createdAt": {
+    "$date": "2023-05-01T19:16:14.429Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-01T19:16:14.429Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6450100995badbc6924460d6"
+  },
+  "FullName": "Driver of 12 Minibus",
+  "email": "Driver12@gmail.com",
+  "passwordHash": "$2b$10$pwCej6FPAb8me.XICXsjH.BjMXPMjGmrq0aPk7jK3avfallQt5xc2",
+  "busId": 12,
+  "createdAt": {
+    "$date": "2023-05-01T19:16:25.526Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-01T19:16:25.526Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6450101295badbc6924460d8"
+  },
+  "FullName": "Driver of 15 Minibus",
+  "email": "Driver15@gmail.com",
+  "passwordHash": "$2b$10$CWONJwU0GeM9vv9iMsYuouKAzaI4OtlmQYJXuzBZyaIULifx84KsK",
+  "busId": 15,
+  "createdAt": {
+    "$date": "2023-05-01T19:16:34.101Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-01T19:16:34.101Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6450101b95badbc6924460da"
+  },
+  "FullName": "Driver of 17 Minibus",
+  "email": "Driver17@gmail.com",
+  "passwordHash": "$2b$10$mPbgTeoh7dzDl32ZauxtoOhamuU2TI3scF98EryOpFyZYSrv4Qf/a",
+  "busId": 17,
+  "createdAt": {
+    "$date": "2023-05-01T19:16:43.745Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-01T19:16:43.745Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6450102295badbc6924460dc"
+  },
+  "FullName": "Driver of 18 Minibus",
+  "email": "Driver18@gmail.com",
+  "passwordHash": "$2b$10$Nqp.5t/tQzIencslHPh4c.c0Ez3SfXs4gedjtDBwrHE0AQS7MebC.",
+  "busId": 18,
+  "createdAt": {
+    "$date": "2023-05-01T19:16:50.614Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-01T19:16:50.614Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6450102a95badbc6924460de"
+  },
+  "FullName": "Driver of 19 Minibus",
+  "email": "Driver19@gmail.com",
+  "passwordHash": "$2b$10$IrbH0thGOfVhL29wygvOLOJUiOU7PFp4H4bX1yUn..Oz1aHQJ8IwG",
+  "busId": 19,
+  "createdAt": {
+    "$date": "2023-05-01T19:16:58.291Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-01T19:16:58.291Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6450103895badbc6924460e0"
+  },
+  "FullName": "Driver of 20 Minibus",
+  "email": "Driver20@gmail.com",
+  "passwordHash": "$2b$10$weXDhUKnP93Z0NxXeP/N5.hnxs0vM6GfEKPVNhqipQBEQCdje74HK",
+  "busId": 20,
+  "createdAt": {
+    "$date": "2023-05-01T19:17:12.048Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-01T19:17:12.048Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6450104095badbc6924460e2"
+  },
+  "FullName": "Driver of 21 Minibus",
+  "email": "Driver21@gmail.com",
+  "passwordHash": "$2b$10$MfdXxPT7yjjJ.s78rsX/mulOMz1XOAHlxORNzGPtfjE5lg.rxs0iW",
+  "busId": 21,
+  "createdAt": {
+    "$date": "2023-05-01T19:17:20.988Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-01T19:17:20.988Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6450111c95badbc6924460e4"
+  },
+  "FullName": "Driver of 23 Minibus",
+  "email": "Driver23@gmail.com",
+  "passwordHash": "$2b$10$tihpeN3h.qLI6ulf81kswOjy.3vmo5PsYAkUJja96MnoVGFtJO1zq",
+  "busId": 23,
+  "createdAt": {
+    "$date": "2023-05-01T19:21:00.962Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-01T19:21:00.962Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6450112795badbc6924460e6"
+  },
+  "FullName": "Driver of 25 Minibus",
+  "email": "Driver25@gmail.com",
+  "passwordHash": "$2b$10$hrz.SFUGq484xd/Fkwz6S.OzHCDtTzrbB2zGZcbHXEw/PsjBXs7WK",
+  "busId": 25,
+  "createdAt": {
+    "$date": "2023-05-01T19:21:11.963Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-01T19:21:11.963Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6450121495badbc6924460e8"
+  },
+  "FullName": "Driver of 35 Minibus",
+  "email": "Driver35@gmail.com",
+  "passwordHash": "$2b$10$7t3wnA3KF1jN5AUcXywdaO7yfwy5ddGIGRJyYzNqy9JQNOnLTayJS",
+  "busId": 35,
+  "createdAt": {
+    "$date": "2023-05-01T19:25:08.405Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-01T19:25:08.405Z"
+  },
+  "__v": 0
+}]

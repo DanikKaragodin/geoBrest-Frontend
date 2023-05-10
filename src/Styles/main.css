@@ -1,0 +1,359 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+
+}
+
+html {
+  background: linear-gradient(to right bottom, #fbc700, #fca518);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  position: relative;
+}
+.page{
+  position: absolute;
+}
+.page-enter-active{
+  animation: fade-in 1s forwards ;
+}
+.page-exit-active{
+  animation: fade-out 1s forwards ;
+}
+@keyframes fade-in{
+  0%{
+    opacity: 0;
+    transform: translateX(-400px);
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-out{
+  0%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+.container {
+  width: 400px;
+  margin: auto;
+  padding: 36px 48px 48px 48px;
+  background-color: #f2efee;
+  border-radius: 11px;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+}
+
+.login-title {
+  padding: 15px;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.login-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 16px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 1.2rem;
+  border-radius: 9px;
+  border: none;
+}
+
+.login-form input:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(253, 242, 233, 0.5);
+}
+
+.btn--form {
+  background-color: #fca518;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 8px;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 9px;
+  border: none;
+
+  cursor: pointer;
+  font-family: inherit;
+
+  transition: all 0.3s;
+}
+
+button {
+  outline: 1px solid #fbc700;
+}
+
+.btn--form:hover {
+  background-color: #fdf2e9;
+  color: #af7210;
+}
+
+.icon {
+  background: url('../Img/g.png');
+  background-size: 100px 100px;
+  height: 100px;
+  width: 100px;
+  /* Other styles here */
+}
+
+#login-div {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: 100vw;
+  opacity: 1;
+  background: linear-gradient(to right bottom, #fbc700, #fca518);
+  height: 100vh;
+  transition: transform 1s ease;
+}
+#root{
+  display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+#incorrect {
+  text-align: center;
+  color: red;
+  animation: horizontal-shaking 2s forwards;
+  display: none;
+}
+.footer-div{
+  display: flex;
+}
+.footer-div-p{
+    font-size: 60px;
+    align-self: center;
+    width: min-content;
+    color: #f2efee;
+    text-shadow: 0px 5px 10px gray, 0px 0px 0px black ;
+    font-family: 'Kanit', sans-serif;
+}
+.info-div {
+  background: linear-gradient(to right bottom, #fbc700, #fca518);
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  top: 0;
+  left: 0;
+}
+
+.info-header {
+  background: #fbc032;
+  width: 100%;
+  height: 11vh;
+  display: flex;
+  justify-content: space-around;
+  border: solid;
+  border-color: whitesmoke;
+  border-radius: 1.5rem;
+  box-shadow: 0px 0px 31px 23px rgba(34, 60, 80, 0.2);
+  margin-top: 1%;
+  text-align: center;
+}
+
+.info-header-div-imgName {
+  display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    height: 8vh;
+    border-radius: 1.3rem;
+    align-items: center;
+    align-self: center;
+    box-shadow: 4px 10px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.info-header-img {
+  height: inherit;
+  border-radius: 1.5rem;
+  padding: auto 5% auto 5%;
+  margin: 2% 2% 3% 4%;
+}
+
+.info-header-name {
+  font-family: 'Inter', sans-serif;
+  font-size: 4vmin;
+  color: black;
+
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.info-header-count {
+  font-family: 'Inter', sans-serif;
+  font-size: 3.5vmin;
+  display: flex;
+  flex-direction: row;
+  background-color: whitesmoke;
+  height: 9vh;
+  border-radius: 1.3rem;
+  align-items: center;
+  align-self: center;
+  box-shadow: 4px 10px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.info-main {
+  border: solid whitesmoke;
+  box-shadow: 0px 0px 31px 23px rgba(34, 60, 80, 0.2);
+  border-radius: 1.5rem;
+  width: 100%;
+  margin-top: 1%;
+  background: linear-gradient(0deg, #ae7322, #fbc032);
+  display: flow-root;
+}
+.info-main-h1{
+  display: block;
+  border: solid white;
+  background-color: whitesmoke;
+  border-radius: 0.6rem;
+  text-align: center;
+
+  font-size: 5vmin;
+  font-family: 'Inter', sans-serif;
+  margin: 2%;
+  padding: 3%;
+  box-shadow: 4px 10px 8px 0px rgba(34, 60, 80, 0.2);
+  overflow: hidden;
+}
+.info-main-li {
+  display: flex;
+  border: solid white;
+  background-color: whitesmoke;
+  border-radius: 0.6rem;
+  text-align: center;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.1vmin;
+  font-family: 'Inter', sans-serif;
+  margin: 2%;
+  padding: 3%;
+  box-shadow: 4px 10px 8px 0px rgba(34, 60, 80, 0.2);
+  justify-content: space-between;
+  overflow: hidden;
+  transition: transform 1s ease, border .3s ease-out, background-color .3s ease-out;
+}
+.info-main-button {
+  display: flex;
+  border: solid white;
+  background-color: whitesmoke;
+  border-radius: 0.6rem;
+  text-align: center;
+  height: 10vh;
+  width: -webkit-fill-available;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.1vmin;
+  font-family: 'Inter', sans-serif;
+  margin: 2%;
+  padding: 3%;
+  box-shadow: 4px 10px 8px 0px rgba(34, 60, 80, 0.2);
+  overflow: hidden;
+  transition: transform 1s ease, border .3s ease-out, background-color .3s ease-out;
+}
+.info-main-button:hover {
+  border: solid;
+  background-color: #fbc700;
+}
+
+.shaman {
+  width: 100%;
+}
+
+#shamanvideo {
+  border-radius: 100%;
+}
+
+.smoothhidden {
+  animation: smghidden 3s forwards;
+}
+
+.smoothshowen {
+  animation: smgshowen 3s forwards;
+}
+
+@keyframes smghidden {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes smgshowen {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes horizontal-shaking {
+  0% {
+    transform: translateX(0);
+    opacity: 0;
+  }
+
+  25% {
+    transform: translateX(5px);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateX(-5px);
+    opacity: 1;
+  }
+
+  75% {
+    transform: translateX(5px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 0;
+  }
+}
