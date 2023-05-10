@@ -33,9 +33,9 @@ export default function Inform()  {
   }
   async function subscribe(){
     try {
-        if(!Driver.token) return false
+        if(!localStorage.getItem("token")) return false
         const {data} = await axios.get('/info',
-        {headers: {Authorization: `Bearer ${Driver.token}`}}
+        {headers: {Authorization: `Bearer ${localStorage.getItem("token")}`}}
         )
         updateValues({
           hours: data.Info[0].hours,
@@ -62,8 +62,11 @@ export default function Inform()  {
         }, (1000/Driver.koef))
     }
   }
-  function Exit(){
+  async function Exit(){
     console.log('Exit');
+    await updateValues({
+      token: "",
+    });
     localStorage.removeItem("token");
     navigate("/login");
   }
